@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+    <div style="text-align: center;">
+
+        <h1>Welcome to PvP Blackjack like Cardgame</h1>
+        <p>The player who is the closest to 21 will win the game.</p>
+
+        <h2>opponent's Decks</h2>
+        <p id="opponent-text"></p>
+        <div id="opponent-deck">
+        </div>
+
+        <h2>Player's Decks</h2>
+        <p id="player-text"></p>
+        <div id="player-deck">
+
+        </div>
+
+        <div>
+            <button id="hit-button">Hit!</button>
+            <button id="stay-button">Stay</button>
+        </div>
+        <div>
+            <p id = "game-text"></p>
+        </div>
+    </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/script/index.js"></script>
+</html>

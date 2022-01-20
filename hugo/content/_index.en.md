@@ -1,20 +1,28 @@
-# Building Global Web Application based using AWS Edge services
++++
+date = 2022-01-06
+title = "Edge Service HoL"
+weight = 10
+chapter = false
++++
 
-![GamePlay](https://d1zrwss8zuawdm.cloudfront.net/webcard21-play.png)
+# Building Global WebCard game based on AWS
 
-WebCard21 is an Web-based 1:1 BlackJack game. Have Fun!
+WebCard is an Web-based 1:1 BlackJack game. 
+You are able to launch this game globally, and play card games with global players.
+Have Fun!
 
 Not only source codes for the web-based game, but it also includes AWS best practices to implement online game routing features.
 
 This sample includes how to use AWS Edge services for routing web-based persistent games.
 Using Edge services helps you to minimize end-user latency for your game service.
 
-It includes as follows:
+It includes as follows:       
 
-- Amazon CloudFront
-- Amazon CloudFront Function
-- AWS Global Accelerator Custom Routing
-- AWS Systems Manager
+#### [Amazon CloudFront](https://aws.amazon.com/cloudfront)
+#### [Amazon CloudFront Function](https://aws.amazon.com/blogs/aws/introducing-cloudfront-functions-run-your-code-at-the-edge-with-low-latency-at-any-scale/)
+#### [AWS Global Accelerator Custom Routing](https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-aws-global-accelerator-custom-routing-accelerators/)
+#### [AWS Systems Manager](https://aws.amazon.com/systems-manager)
+#### [Amazon CloudWatch RUM](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-RUM.html)
 
 Pull requests are always welcome. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -22,7 +30,8 @@ Pull requests are always welcome. For major changes, please open an issue first 
 
 ![Image](https://d1zrwss8zuawdm.cloudfront.net/webcard21-architecture2.png)
 
-This architecture shows how to implement game servers for Global Service.
+
+This architecture shows how to implement game servers for Global Service.        
 
 - Amazon CloudFront    
  : This helps minimizing end-users accessing latency for your web-based matchmaker.
@@ -40,20 +49,12 @@ It caches matchmaking web-pages and accelerates dynamic API for optimized web-ba
 - Amazon CloudWatch RUM
  : Amazon CloudWatch RUM is used for measuring end-user experiences for the application. You are able to evaluate end-user performance & errors & session information inside AWS Console Dashboard. You are also integrating AWS X-Ray, Amazon Cognito and Amazon CloudWatch Logs to analyze.
 
+
 ## How to Use
 
-1. You can use this content by cloning the repository or downloading the files.
+Step-by-Step guidance is provided. For the additional support, please feel free to contact through the Repository or email(jinspark@amazon.com). :) 
 
-2. You can also start the content by following the workshop. [English](https://jinspark-lab.github.io/aws-edge-sample/) / [Korean](https://jinspark-lab.github.io/aws-edge-sample/ko/)
 
-- Have fun!
-
-If you have any queries & issues, please feel free to contact me through this repository or email(jinspark@amazon.com). :) 
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
+<p align="center">
+© 2022 Amazon Web Services, Inc. 또는 자회사, All rights reserved.
+</p>
