@@ -6,11 +6,11 @@
     "dependencies": {
         "aws-sdk": "^2.1028.0",
         "cookie-parser": "latest",
+        "cors": "latest",
         "express": "latest",
         "express-winston": "latest",
         "request": "latest",
-        "winston": "latest",
-        "cors": "latest"
+        "winston": "latest"
     },
     "devDependencies": {},
     "scripts": {
