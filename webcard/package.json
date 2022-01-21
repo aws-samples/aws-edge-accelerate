@@ -5,14 +5,14 @@
     "main": "app.js",
     "dependencies": {
         "cookie-parser": "latest",
+        "cors": "latest",
         "ejs": "latest",
         "express": "latest",
         "express-session": "latest",
         "express-winston": "latest",
         "request": "latest",
         "socket.io": "latest",
-        "winston": "latest",
-        "cors": "latest"
+        "winston": "latest"
     },
     "devDependencies": {},
     "scripts": {
