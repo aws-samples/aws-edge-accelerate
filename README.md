@@ -44,7 +44,7 @@ It caches matchmaking web-pages and accelerates dynamic API for optimized web-ba
 
 1. You can use this content by cloning the repository or downloading the files.
 
-2. You can also start the content by following the workshop. [English](https://jinspark-lab.github.io/aws-edge-sample/) / [Korean](https://jinspark-lab.github.io/aws-edge-sample/ko/)
+2. You can also start the content by following the workshop. [English](https://jinspark-lab.github.io/aws-edge-accelerate/) / [Korean](https://jinspark-lab.github.io/aws-edge-accelerate/ko/)
 
 - Have fun!
 

@@ -3,129 +3,129 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/aws-edge-sample/en/</loc>
+    <loc>/aws-edge-accelerate/en/</loc>
     <lastmod>2022-01-06T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="/aws-edge-sample/ko/"
+                href="/aws-edge-accelerate/ko/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/aws-edge-sample/en/"
+                href="/aws-edge-accelerate/en/"
                 />
   </url>
   
   <url>
-    <loc>/aws-edge-sample/en/matchmaker/</loc>
+    <loc>/aws-edge-accelerate/en/matchmaker/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="/aws-edge-sample/ko/matchmaker/"
+                href="/aws-edge-accelerate/ko/matchmaker/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/aws-edge-sample/en/matchmaker/"
+                href="/aws-edge-accelerate/en/matchmaker/"
                 />
   </url>
   
   <url>
-    <loc>/aws-edge-sample/en/cloudfront/</loc>
+    <loc>/aws-edge-accelerate/en/cloudfront/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="/aws-edge-sample/ko/cloudfront/"
+                href="/aws-edge-accelerate/ko/cloudfront/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/aws-edge-sample/en/cloudfront/"
+                href="/aws-edge-accelerate/en/cloudfront/"
                 />
   </url>
   
   <url>
-    <loc>/aws-edge-sample/en/gameserver/</loc>
+    <loc>/aws-edge-accelerate/en/gameserver/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="/aws-edge-sample/ko/gameserver/"
+                href="/aws-edge-accelerate/ko/gameserver/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/aws-edge-sample/en/gameserver/"
+                href="/aws-edge-accelerate/en/gameserver/"
                 />
   </url>
   
   <url>
-    <loc>/aws-edge-sample/en/globalaccelerator/</loc>
+    <loc>/aws-edge-accelerate/en/globalaccelerator/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="/aws-edge-sample/ko/globalaccelerator/"
+                href="/aws-edge-accelerate/ko/globalaccelerator/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/aws-edge-sample/en/globalaccelerator/"
+                href="/aws-edge-accelerate/en/globalaccelerator/"
                 />
   </url>
   
   <url>
-    <loc>/aws-edge-sample/en/gameplay/</loc>
+    <loc>/aws-edge-accelerate/en/gameplay/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="/aws-edge-sample/ko/gameplay/"
+                href="/aws-edge-accelerate/ko/gameplay/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/aws-edge-sample/en/gameplay/"
+                href="/aws-edge-accelerate/en/gameplay/"
                 />
   </url>
   
   <url>
-    <loc>/aws-edge-sample/en/monitor/</loc>
+    <loc>/aws-edge-accelerate/en/monitor/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="/aws-edge-sample/ko/monitor/"
+                href="/aws-edge-accelerate/ko/monitor/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/aws-edge-sample/en/monitor/"
+                href="/aws-edge-accelerate/en/monitor/"
                 />
   </url>
   
   <url>
-    <loc>/aws-edge-sample/en/categories/</loc>
+    <loc>/aws-edge-accelerate/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="/aws-edge-sample/ko/categories/"
+                href="/aws-edge-accelerate/ko/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/aws-edge-sample/en/categories/"
+                href="/aws-edge-accelerate/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>/aws-edge-sample/en/tags/</loc>
+    <loc>/aws-edge-accelerate/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="/aws-edge-sample/ko/tags/"
+                href="/aws-edge-accelerate/ko/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/aws-edge-sample/en/tags/"
+                href="/aws-edge-accelerate/en/tags/"
                 />
   </url>
   
