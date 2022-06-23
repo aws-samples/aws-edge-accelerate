@@ -14,8 +14,6 @@ chapter= false
 
 - Designate Web Matchmaker as an Origin
 
-- (Important) It is essential to allow "GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE" method on CloudFront.
-
 ## Create CloudFront Functions for JWT validation
 
 - From the CloudFront page, Click Functions tab on the left side.
@@ -130,11 +128,29 @@ function handler(event) {
 
 You can also copy & paste the code from cf2.js.       
 
-- Click Publish Tab. And Associate the CloudFront Distribution made above.
 
-![CF2](https://d1zrwss8zuawdm.cloudfront.net/webcard21-cf2.png)
+## Add Behaviour on CloudFront Distributions
 
-- Also you should Publish the function to the associated CloudFront Distributions.
+- Add new behaviours depending on Path Patterns as follows: (/match)
+
+![CFBehaviour](https://d1zrwss8zuawdm.cloudfront.net/webcard21-behaviour1.png)
+
+- (Important) It is essential to allow "GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE" method on CloudFront.
+
+![CFBehaviour](https://d1zrwss8zuawdm.cloudfront.net/webcard21-behaviour2.png)
+
+- Set Cache Policy to disable cache.      
+
+- Associate the CloudFront Function that you made before to a behaviour. When player send requests to url(/match), this function will be called.
+
+![CF2](https://d1zrwss8zuawdm.cloudfront.net/webcard21-cf2-1.png)
+
+- Click the Create Behaviour button and complete the creation.
+
+- Do the same action to create behaviour for path(/status). This should be looks like follows: 
+
+![CFBehaviour](https://d1zrwss8zuawdm.cloudfront.net/webcard21-behaviour3.png)
+
 
 <p align="center">
 © 2022 Amazon Web Services, Inc. 또는 자회사, All rights reserved.

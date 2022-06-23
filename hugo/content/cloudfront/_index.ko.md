@@ -14,8 +14,6 @@ chapter= false
 
 - 위에서 생성한 Web Matchmaker 를 Origin 으로 지정합니다.
 
-- (중요) CloudFront 에서 "GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE" 방식을 전부 허용합니다.
-
 ## JWT Validation 을 위한 CloudFront Function 을 생성하기
 
 - CloudFront 페이지에서 왼쪽 메뉴의 Functions 탭을 클릭합니다.
@@ -130,11 +128,28 @@ function handler(event) {
 
 위의 코드는 cf2.js 파일로부터 Copy & Paste 할 수 있습니다.
 
-- Publish Tab 을 클릭합니다. 함수를 앞에서 생성한 CloudFront Distribution 에 Association 합니다.
+## CloudFront Distributions 에 경로에 따른 동작 추가
 
-![CF2](https://d1zrwss8zuawdm.cloudfront.net/webcard21-cf2.png)
+- Path Pattern 에 따라서 다음과 같이 동작을 추가합니다.
 
-- 연동된 CloudFront Distributions 에 함수를 Publish 해야합니다.
+![CFBehaviour](https://d1zrwss8zuawdm.cloudfront.net/webcard21-behaviour1.png)
+
+- (중요) CloudFront 에서 "GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE" 방식을 전부 허용합니다.
+
+![CFBehaviour](https://d1zrwss8zuawdm.cloudfront.net/webcard21-behaviour2.png)
+
+- CloudFront 의 캐시 정책을 Disable 합니다
+
+- Function Association 탭에서 앞에서 생성한 함수를 Association 합니다.
+
+![CF2](https://d1zrwss8zuawdm.cloudfront.net/webcard21-cf2-1.png)
+
+- Create Behaviour 버튼을 클릭해서 작업을 완료합니다.
+
+- 같은 작업을 /status 경로에 대해서 똑같이 수행합니다. 다음과 같이 Behaviour 가 생성되어야 합니다.
+
+![CFBehaviour](https://d1zrwss8zuawdm.cloudfront.net/webcard21-behaviour3.png)
+
 
 <p align="center">
 © 2022 Amazon Web Services, Inc. 또는 자회사, All rights reserved.

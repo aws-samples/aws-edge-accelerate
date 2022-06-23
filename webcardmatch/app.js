@@ -19,6 +19,25 @@ var gameId = 0;
 
 var avialbleEndpoint = {};
 
+// Initialize the Amazon Cognito credentials provider
+AWS.config.region = 'us-east-1'; // Region
+AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+    IdentityPoolId: 'us-east-1:194e5a56-8685-4bf9-bbe7-9c2fa7f8ac22',
+});
+
+AWS.config.credentials.get(function() {
+    // Credentials will be available when this function is called.
+    var accessKeyId = AWS.config.credentials.accessKeyId;
+    var secretAccessKey = AWS.config.credentials.secretAccessKey;
+    var sessionToken = AWS.config.credentials.sessionToken;
+
+	console.log(AWS.config.credentials);
+
+	console.log("ACCESS_KEY : " + accessKeyId);
+	console.log("SECRET_ACCESS_KEY : " + secretAccessKey);
+	console.log("SESSION_TOKEN : " + sessionToken);
+});
+
 app.get('/', function (req, res) {
 	res.sendFile(__dirname + "/views/index.html");
 });
